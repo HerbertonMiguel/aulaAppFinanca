@@ -9,7 +9,7 @@ export default function SignUp(){
     const {user} = useContext (AuthContext)
 
     function chamaFuncao(){
-        alert(user)
+        alert(user.nome)
     }
 
     return (
